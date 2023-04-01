@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+canvas {
+
+    display: block;
+    margin: auto;
+    background-color: green;
+    border: 5px solid #000;
+    cursor: none;
+}
+
+.mesa {
+
+    margin: 50px;
+}
